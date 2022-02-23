@@ -1,5 +1,17 @@
 /*Mobile First Approach*/
 
 body {
+    display: flex;
+}
+
+.image{
+    width: 339px;
+    height: 224px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 
 }
