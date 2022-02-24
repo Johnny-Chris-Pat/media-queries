@@ -58,15 +58,14 @@ body {
         display: flex;
         flex-wrap: wrap;
 
-<<<<<<< HEAD
+    }
 
         .hidden-on-desktop {
             /*visibility: hidden;*/
             display: none;
         }
-=======
-    }
->>>>>>> 62cf4aebb8841a8ffcd206756281701442a5bc5b
+
+
 
 
         h1 {
@@ -86,7 +85,7 @@ body {
 
         }
 
-<<<<<<< HEAD
+
         .nav-links > li {
             padding: 10px;
             display: flex;
@@ -97,12 +96,13 @@ body {
             margin-left: 10px;
             border-style: none;
         }
-=======
+
     #main {
         width: 50%;
+    }
 
   /*      margin-right: 30%;*/
->>>>>>> 62cf4aebb8841a8ffcd206756281701442a5bc5b
+
 
 
         .image {
@@ -112,12 +112,6 @@ body {
 
         }
 
-        #main {
-            flex-direction: column;
-            width: 60%;
-
-
-        }
 
         .sub-section {
 
@@ -129,13 +123,13 @@ body {
 
     }
 
-}
+
 @media screen and (min-width:1200px) {
 
     body {
         display: flex;
         flex-wrap: wrap;
-
+    }
 
         .image {
             height: auto;
@@ -197,6 +191,6 @@ body {
             border-style: none;
         }
     }
-}
+
 
 
