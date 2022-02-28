@@ -9,20 +9,6 @@ body {
     font-family: "Roboto Light", "sans-serif";
 }
 
-.alert-info{
-    display:inline-block;
-    padding:0.3em 1.2em;
-    margin:0 0.3em 0.3em 0;
-    border-radius:2em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family:'Roboto',sans-serif;
-    font-weight:300;
-    color:#FFFFFF;
-    background-color:#87e6b7;
-    text-align:center;
-    transition: all 0.2s;
-}
 
 h1 {
     width: 100%;
@@ -36,7 +22,7 @@ nav {
     padding-left: 0;
 }
 
-#button3>li {
+.alert-info,.nav-links>li {
 
     display: inline-block;
     padding: 0.3em 1.2em;
@@ -53,11 +39,11 @@ nav {
 }
 
 
-#button3>li:hover{
+.alert-info:hover, .nav-links>li:hover{
     background-color:#4095c6;
 }
 @media all and (max-width:30em){
-    #button3 {
+    .alert-info, .nav-links {
         display:block;
         margin:0.2em auto;
     }
